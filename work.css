@@ -1,0 +1,82 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: url(moha.png); */
+    /* background-repeat:no-repeat; */
+    /* background-size:cover; */
+    /* background-attachment: fixed; */
+     padding-top: 10px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* ht */
+.content
+{
+    /* padding-top: 10px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+
+h2
+{
+    color: rgb(26, 189, 26);
+    font-size: larger;
+}
+h3
+{
+    color: rgb(42, 127, 197);
+    font-size: large;
+    margin-bottom: -10px;
+}
+
+.my_links p
+{
+    margin-top: -10px;
+}
+.art1 p
+{
+    margin-top: -10px;
+}
+
+.art2 .p2
+{
+    margin-top: -15;
+}
+
+.p3
+{
+    margin-left: -25px;
+    margin-bottom: 10px;
+}
+ul
+{
+    margin-left: -10px;
+}
+
+ul aside
+{
+    margin-left: -18px;
+}
+
+img
+{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #9f8a60;
+    box-shadow: 0px 0px 12px;
+}
+tr
+{
+    text-align: center;
+}
+
+td {
+    color: chocolate;
+}

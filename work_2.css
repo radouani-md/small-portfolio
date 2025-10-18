@@ -163,7 +163,8 @@ main section div button
 }
 main section div button:hover
 {
-    background-image: linear-gradient(to bottom right, #009688, #ace3de);    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #009688, #ace3de);
+    border-radius: 1000px;
     box-shadow: 40px 0 100px #ace3de , -40px 0 100px #009688;
 }
 

@@ -11,7 +11,7 @@ body
 {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bac2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../imgs/bac2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ header
 {
     width: 100%;
     height: 10%;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bac2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../imgs/bac2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -137,13 +137,14 @@ main section div img
 
 main section div img:hover
 {
-    width: 50%;
+    width: 47%;
     margin-left: 0;
     height: 100%;
 }
 
 main section div p
 {
+    margin-left: 40px;
     font-size: 20px;
 }
 main section div button
@@ -181,7 +182,7 @@ main section div button:hover
 }
 
 .video-container:hover {
-    width: 50%;
+    width: 47%;
     margin-left: 0;
     height: 100%;
 }

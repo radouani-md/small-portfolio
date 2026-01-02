@@ -205,7 +205,7 @@ section .art1:hover
     left: 0;
     margin-bottom: 40px;
     /* margin-right: 60px; */
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -220,11 +220,11 @@ section .art1:hover
     margin-bottom: 40px;
     right: 0;
     bottom: 0;
-    width: 55%;
-    background-color: #bc1888;
+    width: 61%;
+    /* background-color: #bc1888; */
     display: flex;
     justify-content: center;
-    /* gap: 80px; */
+    gap: 65px;
 }
 
 .link-skills button 
@@ -281,4 +281,53 @@ section .art1:hover
     );
     background-clip: text;
     color: transparent; 
+}
+
+.fa-html5
+{
+    font-size: 70px;
+    color: #f26529;
+
+}
+.fa-css3-alt
+{
+    font-size: 70px;
+    color: #477dd6;
+
+}
+.fa-js
+{
+    font-size: 70px;
+    color: #f0db4f;
+
+}
+.fa-php
+{
+    font-size: 70px;
+    color: #777bb3;
+
+}
+.fa-c
+{
+    font-size: 70px;
+    color: #004482;
+
+}
+.fa-docker
+{
+    font-size: 70px;
+    color: #019bc6;
+
+}
+.fa-react
+{
+    font-size: 70px;
+    color: #55BDDA;
+
+}
+.fa-database
+{
+    font-size: 70px;
+    color: #BCBBC0;
+
 }

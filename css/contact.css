@@ -123,6 +123,63 @@ header img
     line-height: 65px;
 }
 
+.container
+{
+    /* display: flex; */
+    /* max-width: 300px; */
+    position: absolute;
+    bottom: 4%;
+    /* background-color: aqua; */
+    width: 50%;
+    height: 60%;
+}
+
+form
+{
+    display: flex;
+    max-width: 800px;
+    gap: 20px;
+    padding-left: 40%;
+    flex-direction: column;
+}
+.infos
+{
+    position: absolute;
+    background-color: #f09433;
+    right: 0;
+    bottom: 4%;
+    width: 50%;
+    height: 60%;
+}
+
+input
+{
+    height: 27px;
+    color: black;
+}
+textarea
+{
+    color: black;
+    height: 250px;
+}
+
+.button-container input
+{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 24%;
+    background-color: transparent;
+    border: #fff 1.5px solid;
+    color: #fff;
+}
+
+.button-container input:hover
+{
+    /* color: #009688; */
+    background-color: #37403E;
+}
+
 .title h1
 {
     font-size: 80px;

@@ -46,7 +46,7 @@ header nav {
 
 header nav ul li
 {
-    list-style: none;   
+    list-style: none;
     display: inline-block;
     position: relative;
 }
@@ -149,7 +149,7 @@ main section div p
     font-size: 26px;
     line-height: 35px;
 }
-main section div button
+button
 {
     padding: 1em 2em;
     /* line-height: 40px; */
@@ -162,9 +162,9 @@ main section div button
     width: 250px;
     height: 55px;
     border-radius: 80px;
-    margin-top: 80px;
+    margin-top: 300px;
 }
-main section div button:hover
+button:hover
 {
     background-image: linear-gradient(to bottom right, #009688, #ace3de);
     border-radius: 1000px;
@@ -172,19 +172,19 @@ main section div button:hover
 }
 
 .video-container {
-    width: 45%;
+    /* width: 50%; */
     /* margin-left: 0; */
     height: 90%;
     border-radius: 20px;
     transition: 0.5s;
     overflow: hidden;
-    max-width: 1000px;
+    max-width: 700px;
     margin-left: 30px;
     transition: 0.5s;
 }
 
 .video-container:hover {
-    width: 47%;
+    max-width: 700px;
     margin-left: 0;
     height: 100%;
 }

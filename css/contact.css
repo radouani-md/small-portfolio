@@ -145,11 +145,23 @@ form
 .infos
 {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     background-color: #f09433;
     right: 0;
     bottom: 4%;
     width: 50%;
     height: 60%;
+}
+
+.ty-infos
+{
+    position: absolute;
+    right: 0;
+    bottom: 4%;
+    width: 40%;
+    height: 60%;
+    background-color: #5cb4ac;
 }
 
 input
@@ -180,6 +192,16 @@ textarea
     background-color: #37403E;
 }
 
+.infos button 
+{
+    border: none;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+
 .title h1
 {
     font-size: 80px;
@@ -203,6 +225,20 @@ textarea
 }
 
 
+.fa-phone
+{
+    font-size: 40px;
+}
+
+.fa-envelope
+{
+    font-size: 40px;
+}
+
+.fa-location-dot
+{
+    font-size: 40px;
+}
 .fa-github
 {
     font-size: 50px;

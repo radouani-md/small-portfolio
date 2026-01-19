@@ -139,40 +139,96 @@ form
     display: flex;
     max-width: 800px;
     gap: 20px;
-    padding-left: 40%;
+    padding-left: 30%;
+        padding-top: 3%;
+    /* margin-right: 20%; */
     flex-direction: column;
+}
+
+form input
+{
+    font-size: 16px;
+    width: 550px;
+    border-radius: 5px;
+    border-color: #cee4e2;
 }
 .infos
 {
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: #f09433;
+    /* background-color: #f09433; */
     right: 0;
-    bottom: 4%;
-    width: 50%;
-    height: 60%;
+    padding-right: 5%;
+    bottom: 0;
+    width: 40%;
+    height: 62%;
+    gap: 20px;
+}
+.hhr
+{
+    position: absolute;
+    right: 0;
+    bottom: 28%;
+    /* background-color: #bc1888; */
+    width: 30%;
+    padding-right: 5%;
+    margin-right: 180px;
+    height: 20px;
+}
+
+.social-media
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    right: 0;
+    bottom: 20%;
+    /* background-color: #bc1888; */
+    width: 60%;
+}
+
+.lastly
+{
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    width: 60%;
+    text-align: center;
+}
+.lastly p
+{
+    font-size: 19px;
 }
 
 .ty-infos
 {
     position: absolute;
     right: 0;
-    bottom: 4%;
-    width: 40%;
-    height: 60%;
-    background-color: #5cb4ac;
+    bottom: 0;
+    width: 33%;
+    height: 62%;
+    padding-right: 5%;
+    /* background-color: #5cb4ac; */
 }
 
 input
 {
-    height: 27px;
+    height: 35px;
+    padding-left: 10px;
     color: black;
 }
 textarea
 {
+    padding-left: 10px;
     color: black;
+    font-size: 16px;
     height: 250px;
+    width: 550px;
+    border-radius: 4px;
+    border-color: #cee4e2;
+
 }
 
 .button-container input
@@ -189,7 +245,14 @@ textarea
 .button-container input:hover
 {
     /* color: #009688; */
+    cursor: pointer;
     background-color: #37403E;
+}
+
+.social-media button
+{
+    border: none;
+    background-color: transparent;
 }
 
 .infos button 
@@ -201,6 +264,44 @@ textarea
     border-radius: 50%;
 }
 
+.ty-infos hr
+{
+    
+    width: 500px;
+    margin-top: 18px;
+    margin-right: 250px;
+}
+
+.location 
+{
+    /* font-size: 40px; */
+
+    margin-top: 15px;    
+
+}
+.phone
+{
+
+    margin-top: 44px;
+    font-size: 22px;
+}
+.mail
+{
+    
+    margin-top: 63px;
+    font-size: 22px;
+}
+
+.location h3
+{
+    font-size: 25px;
+}
+
+.location p
+{
+    font-size: 19px;
+    margin-left: 50px;
+}
 
 .title h1
 {
@@ -211,33 +312,37 @@ textarea
 {
     width: 50%;
     margin-left: 25%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .title h2
 {
     font-size: 40px;
+    margin-top: 25px;
 }
 
 .title p
 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
 .fa-phone
 {
     font-size: 40px;
+    color: #9c9e9e;
 }
 
 .fa-envelope
 {
     font-size: 40px;
+    color: #9c9e9e;
 }
 
 .fa-location-dot
 {
     font-size: 40px;
+    color: #9c9e9e;
 }
 .fa-github
 {

@@ -41,22 +41,58 @@ header
 {
     width: 100%;
     height: 10%;
-    /* background-color: #fff; */
+    /* background-color: #0db458; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
+.login
+{
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    height: 50px;
+    /* background-color: aqua; */
+    /* margin-bottom: 80px; */
+    /* bottom: 1%; */
+}
+
 a
 {
     text-decoration: none;
+    font-size: 21px;
+}
+
+.login li
+{
+    list-style: none;
+}
+.login li a button
+{
+    font-size: 23px;
+    text-align: center;
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #009688;
+}
+
+.login li a button:hover
+{
+    background-image: linear-gradient(to bottom right, #009688, #ace3de);
+}
+
+header nav ul li a
+{
     font-size: 23px;
 }
 
-
 header nav {
-    width: 400px;
+    width: 800px;
+    /* background-color: #009688; */
 }
 
 header nav ul li
@@ -143,7 +179,7 @@ main .content1 .buttons
     bottom: 0;
 }
 
-button
+.buttons button
 {
     width: 200px; 
     height: 50px;
@@ -176,7 +212,7 @@ button div
 }
 
 
-button::after
+.buttons button::after
 {
     content: '';
     position: absolute;

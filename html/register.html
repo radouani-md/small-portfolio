@@ -18,7 +18,7 @@
 
     <link rel="icon" href="../imgs/profile.png">
     <title>About me</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 <body>
     <header>
@@ -27,8 +27,8 @@
     <div class="banner">
         <div class="cover">
             <div class="blank">
-                <h1>Welcome To Login Page </h1>
-                <p>Sign in your account</p>
+                <h1>Welcome To Register Page </h1>
+                <p>Sign up your account</p>
             </div>
             <div class="log">
                 <div class="login-box">
@@ -37,8 +37,14 @@
                     <h2>Good Day</h2>
                 </div> -->
                 <form action="" method="post">
-                    <p class="log-text1">Login</p>
-                    <p class="log-text2">Your Account</p>
+                    <p class="log-text1">Register </p>
+                    <p class="log-text2">An Account</p>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-regular fa-user"></i></span>
+                        <input type="text" name="" id="" required  placeholder=" ">
+                        <label for="">Username</label>
+                    </div>
 
                     <div class="input-box">
                         <span class="icon"><i class="fa-solid fa-envelope"></i></span>
@@ -48,17 +54,22 @@
 
                     <div class="input-box">
                         <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" name="" id="" required  placeholder=" ">
+                        <label for="">password</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
                         <input type="password" name="" id="" required placeholder=" ">
-                        <label for="">Password</label>
+                        <label for="">Confirm Password</label>
                     </div>
 
                     <div class="remember-forget">
-                        <label for=""><input type="checkbox">Remember</label>
-                        <a href="#">Forgot Password?</a>
+                        <label for=""><input type="checkbox" required>I Accept the terms and conditions</label>
                     </div>
-                    <button type="submit">Login</button>
+                    <button type="submit">Create account</button>
                     <div class="register-link">
-                        <p>Don't have an account? <a href="register.html">Register</a></p>
+                        <p>Do you have an account? <a href="login.html">Login</a></p>
                     </div> 
                 </form>
                 </div>
